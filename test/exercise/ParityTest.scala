@@ -3,9 +3,9 @@ package exercise
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
-import exercise.IntToString._
+import exercise.Parity._
 
-class IntToStringTest {
+class ParityTest {
 
   def intToStringTest( f:Int => String ): Unit ={
     assertEquals("even", f(0))
@@ -16,11 +16,11 @@ class IntToStringTest {
   }
 
   @Test def intToStringValTest(){
-    intToStringTest(intToStringVal)
+    intToStringTest(parityVal)
   }
 
   @Test def intToStringDefTest(){
-    intToStringTest(intToStringDef)
+    intToStringTest(parityDef)
   }
 
 }
