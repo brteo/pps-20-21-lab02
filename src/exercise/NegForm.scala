@@ -18,4 +18,5 @@ object NegForm {
     def notEmpty:String => Boolean = neg(empty)
   }
 
+  def negGeneric[A](f:A => Boolean):A => Boolean = !f(_)
 }
