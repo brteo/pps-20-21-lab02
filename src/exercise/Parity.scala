@@ -1,6 +1,7 @@
 package exercise
 
 object Parity {
+
   val parityVal: Int => String = {
     case n if n%2==0 => "even"
     case _ => "odd"
