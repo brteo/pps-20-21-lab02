@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
 import exercise.Shapes._
+
 class ShapesTest {
 
   @Test def rectPerimeterTest(){
