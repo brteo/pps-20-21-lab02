@@ -1,6 +1,7 @@
 package exercise
 
 object Composition {
+
   def composeInt(f: Int=>Int, g: Int=>Int)(a:Int):Int = f(g(a))
 
   /* the constraint is:
